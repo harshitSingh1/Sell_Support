@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sell-Support</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Header End -->
+<!-- Navbar Start -->
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="" class="navbar-brand p-0">
+            <h1 class="m-0" style="color:rgb(3, 3, 174);"><i class="fab fa-staylinked"></i> Sell<span class="fs-5" style="font-size:20px">-Support</span></h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+                <a href="index.php" class="nav-item nav-link">Home</a>
+                <a href="#" class="nav-item nav-link">Feedback</a>
+                <a href="print.php" class="nav-item nav-link">E-receipt</a>
+                <a href="chat.html" class="nav-item nav-link active">Chat</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="logout.php" class="dropdown-item">Logout</a>
+                        <a href="reset-password.php" class="dropdown-item">Reset Password</a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Notification</a>
+
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Let's Chat</h6>
+                        <h1>Live Chat / WhatsApp / Talk To Shopkeeper</h1>
+                    </div>
+                    <p>Chatting with the shopkeeper can provide valuable insights about the products or services, and help you make an informed purchase decision. Plus, you may even discover exclusive deals or discounts that are only available through the chat!</p>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-secondary mr-4">
+                            <i class="fa fa-2x far fa-comments text-white"></i>
+                        </div>
+                        <form class="example" action="/action_page.php">
+                            <h4>Send Message:</h4>
+                            <a href="../chat/index.php" class="btn danger">Live Chat</a>
+                          </form>
+                    </div>
+                    <h3>Or</h3>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-phone-alt text-white"></i>
+                        </div>
+                            <form class="whatsapp">
+                                <h4>WhatsApp Chat:</h4>
+                              <input type="text" id="input" name="input" placeholder="Enter WhatsApp No.">
+                              <button type="button" onclick="sendToWhatsapp()">Submit</button>
+                            </form>
+                            
+                    </div>
+                    <h3>Or</h3>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-warning mr-4">
+                            <i class="fa fa-2x fa-search text-white"></i>
+                        </div>
+                        <form class="example" action="/action_page.php">
+                            <h4>Talk to Shopkeeper:</h4>
+                            <input type="text" placeholder="Search Shop Name" name="search2">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                    </div>
+
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-200 h-100" src="img/feature1.png" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        function sendToWhatsapp() {
+          var input = document.getElementById("input").value;
+          var href = "https://wa.me/91" + encodeURIComponent(input) + "?text=";
+          window.location.href = href;
+        }
+        </script>
+        
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
