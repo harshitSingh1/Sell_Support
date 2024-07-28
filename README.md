@@ -1,7 +1,6 @@
 # Sell-Support
 website link: https://harshitsingh1.github.io/Sell_Support/
 Note: Github can not host PHP pages, thats why customer and shopkeeper pages can not be open.
-# Sell-Support
 
 ## Introduction
 In today's market, small businesses face a number of difficulties, particularly when trying to compete with bigger, more well-known brands. The biggest challenge they have is staying current with technology and industry changes. It has become more difficult for small, offline businesses to engage with their target audience and offer sufficient customer assistance as a result of the growth of e-commerce and online marketplaces. We created Sell-Support, a software that tries to give small companies a solution to deal with these problems, in response to this difficulty.
