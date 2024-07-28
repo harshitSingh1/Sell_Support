@@ -5,16 +5,6 @@ Note: Github can not host PHP pages, thats why customer and shopkeeper pages can
 ## Introduction
 In today's market, small businesses face a number of difficulties, particularly when trying to compete with bigger, more well-known brands. The biggest challenge they have is staying current with technology and industry changes. It has become more difficult for small, offline businesses to engage with their target audience and offer sufficient customer assistance as a result of the growth of e-commerce and online marketplaces. We created Sell-Support, a software that tries to give small companies a solution to deal with these problems, in response to this difficulty.
 
-### Problem Statement
-Our "Sell-Support" project seeks to help the new businesses entering the market or already existing businesses who are unsure about the precise needs for their customers and clients. While some companies use paid online surveys like "Swagbucks" to get client feedback, our platform enables store owners to do so for free. Some people choose to buy online because they are too busy with office or home work to go outside to the market for the shopping. To expand and grow the offline businesses on our website, we have introduced services like top items, pre-booking, live chat, and loan borrowing. Customers may use these features to chat with the shopkeeper/owner of the shop and find out if the items they want to purchase or looking for are in their shopping list. The client can purchase the item right away if the store has it in stock.
-
-## Background Research
-When compared to OK-Credit, Khata-Book, and Vyapar app, the Sell-Support project offers several unique features and benefits that set it apart from these existing solutions.
-
-- The Sell-Support project provides an integrated platform for product ratings and feedback, which can help businesses get valuable insights into customer preferences and expectations. Unlike OK-Credit and Vyapar, which primarily focus on providing credit and financial management solutions.
-- The Sell-Support project allows for pre-booking of products, which can help businesses manage their inventory more effectively and avoid stockouts. It also includes an online payment gateway, making it easy for businesses to receive payments from customers without the need for cash transactions. This can reduce the risk of theft and fraud and make the process of receiving payments much more convenient. These features are not offered by OK-Credit and Khata-Book.
-- Sell-Support offers a live chat feature that enables businesses to provide instant support to customers and resolve any queries or concerns they may have. This feature is not available in OK-Credit, Khata-Book, and Vyapar app.
-
 ### Proposed System
 Sell-Support aims to reduce the problems that small offline businesses have with organization, customer service, and growing market competition. The system seeks to give businesses a more effective and beneficial approach for engaging with their target customer while saving their time and money.
 
