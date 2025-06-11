@@ -1,6 +1,8 @@
 # Sell-Support
 website link: https://harshitsingh1.github.io/Sell_Support/
 Note: Github can not host PHP pages, thats why customer and shopkeeper pages can not be open.
+![Sell-Support](https://github.com/user-attachments/assets/9b840e44-67ce-4176-b727-aed5171a0669)
+
 
 ## Introduction
 
